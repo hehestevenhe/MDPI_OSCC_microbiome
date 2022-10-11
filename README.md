@@ -1,8 +1,7 @@
 # MDPI_OSCC_microbiome
 R scripts used for processing and secondary analysis of OSCC MS data.
 
-*_prot_filter.R scripts used the TPP ProteinProphet .tsv outputs as input to perform file concatenation and applying filtering criteria for the identified
-proteins.
+*_prot_filter.R: R scripts for processing of the TPP ProteinProphet outputs for virus, bacteria and fungi. These files used the TPP ProteinProphet .tsv outputs as input to perform file concatenation and apply filtering criteria for the identified proteins.
 
 species_inf_sunburst.R: R script for species inference based on log-fold change cutoffs of identified proteins, and visualisation as sunburst plots.
 
